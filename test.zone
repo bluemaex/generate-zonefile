@@ -1,0 +1,38 @@
+; Zone: u.example.com.
+; Exported  (yyyy-mm-ddThh:mm:ss.sssZ): 2017-05-07T20:53:23.488Z
+
+$ORIGIN u.example.com.
+$TTL 60
+
+; SOA Record
+@	 		IN	SOA	ns.example.com.	hostmaster.example.com.	(
+1494190403	 ;serial
+60	 ;refresh
+60	 ;retry
+60	 ;expire
+60	 ;minimum ttl
+)
+
+; NS Records
+@	IN	NS	ns.example.com.
+
+; MX Records
+
+; A Records
+one	IN	A	111.111.111.111
+two	IN	A	111.111.111.111
+
+; AAAA Records
+one	IN	AAAA	2c56:9a76:aee6:3552:855a:f757:3611:255a
+two	IN	AAAA	2c56:9a76:aee6:3552:1111:edff:1111:1112
+
+; CNAME Records
+
+; PTR Records
+
+; TXT Records
+
+; SRV Records
+
+; SPF Records
+

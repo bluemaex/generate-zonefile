@@ -1,0 +1,20 @@
+{
+  "name": "generate-zonefile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Max Stockner",
+  "license": "MIT",
+  "homepage": "https://github.com/bluemaex/generate-zonefile#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluemaex/generate-zonefile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluemaex/generate-zonefile/issues"
+  },
+  "dependencies": {
+    "public-ip": "~2.3.3",
+    "dns-zonefile": "~0.2.2",
+    "ipv6calc": "~0.0.5"
+  }
+}

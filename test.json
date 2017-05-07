@@ -1,0 +1,24 @@
+{
+    "$origin": "u.example.com.",
+    "$ttl": 60,
+    "soa": {
+        "mname": "ns.example.com.",
+        "rname": "hostmaster.example.com.",
+        "serial": "{time}",
+        "refresh": 60,
+        "retry": 60,
+        "expire": 60,
+        "minimum": 60
+    },
+    "ns": [
+        { "host": "ns.example.com." }
+    ],
+    "a": [
+        { "name": "one", "ip": "<ipv4>" },
+      	{ "name": "two", "ip": "<ipv4>" }
+    ],
+    "aaaa": [
+        { "name": "one", "ip": "<ipv6prefix>:855a:f757:3611:255a" },
+      	{ "name": "two", "ip": "<ipv6prefix>:1111:edff:1111:1112" }
+    ]
+}
